@@ -6,31 +6,68 @@
     <title>Document</title>
 </head>
 <body>
-     <!-- p>img -->
-    
-     <!-- <p><img src="" alt=""></p>  -->
-    
-     <!-- block elment and incline element -->
+    <form  action="http://127.0.0.1:5500/miln.html">
+        <label for="email"> enter email id :</label>
+        <input type="text" id="email" placeholder="enter your email here">
+    <br>
+    <br>
+        <label for="password ">Enter password</label>
+        <input type="text" id="password" placeholder="enter your password here">
+    <br>
+    <br>
+         <input type="submit" value="click here" >
+    </form>
+
+  <!-- date picker feild set select option legend texarea etc-->
       
-      <!-- <div style="background-color: aqua;">this is my first div tag(block)</div>
-      <div style="background-color: yellow;"> block element next line me aata h </div>
+      <form >
+        
+        <fieldset>
+                <legend> HTML form dummy</legend>
+            <label for="datepicker">choose date:-</label>
+            <input type="date" id="datepicker">
+           <br>
+           <br>
+            <label for="selector1">choose your dishes </label>
+            <select name="dishes" id="selector1">
+                <option value="maggi">Maggi</option>
+                <option value="kurkure">KURKURE</option>
+                <option value="chips">CHIPS</option>
+            </select>
 
-       <span style="background-color: aqua;"> this is my first span tag(incline)</span>
-       <span style="background-color: red;">incline jitna content hai utni space leta bas</span>
-       <p style="background-color: pink; display:inline ;">block element interconversion to incline by display:incline</p>
-       <p style="background-color: aqua;">block</p> --> 
+            <br/>
+            <br/>
+            <button>mai hu button</button>
+              <br>
+              <br>
+            <textarea name="Textarea1" id="textarea2" cols="38" rows="12" placeholder="enter text here "></textarea>
+        </fieldset>
 
+        <fieldset>
 
-     <nav>
-        <li style="display:inline ; "><a href="">home</a></li>
-        <li style="display:inline ; "><a href="">about</a></li>
-        <li style="display:inline ; "><a href="">contact us</a></li>
-        <li style="display:inline ; "><a href="">login</a></li>
-     </nav>
-    
-     
+            
+          <label for="radio1">radio1</label>  
+         <input type="radio" value="radio1" id="radio1" name="ekhinamehoga">
+        </br>
+        <label for="radio2">radio2</label>
+         <input type="radio" value="radio2" id="radio2" name="ekhinamehoga">
+        </br>
+        <label for="radio3">radio3</label>
+         <input type="radio" value="radio1" id="radio3" name="ekhinamehoga">
+        </br>
+        </fieldset>
+      </form>
 
+    <form>
+      <!-- file select -->
+      <label for="fileselect 1 ">upload</label>
+       <input type="file" name="fileselect" id="fileslect">
+      <br>
+      <br>
+      <input type="image" name="image1" id="image1" alt="image tag use" src="./img/Screenshot 2023-10-09 155106.png" 
+      height="100px" width="100px">
 
+    </form>
 
 </body>
 </html>
